@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Java / SpringBoot / Angular and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1ia8eWUGvqW_UQO13paDEQHPj_6__33IIrnWzCf18LoY/edit?pli=1", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1ia8eWUGvqW_UQO13paDEQHPj_6__33IIrnWzCf18LoY/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,6 +37,9 @@ const socialMediaLinks = {
   gmail: "babitha@careerwenmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/BabithaVakiti/Babitha_Portfolio",
+  linkedin: "https://www.linkedin.com/in/vakiti3012/",
+  gmail: "babitha@careerwenmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -44,7 +47,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: " FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -84,8 +87,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
     },
     {
       skillName: "npm",
@@ -100,12 +103,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "docker",
@@ -121,23 +120,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
+      schoolName: "Marist College",
+      logo: require("./assets/images/Marist_College.png"),
+      subHeader: "Master in Compunter Science and Information Systems",
+      duration: "August 2021 - December 2022",
+      desc: "Took courses about DataScience and Advanced Algorithms",
+      /*descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      ]*/
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Sreyas College of Engineering",
+      logo: require("./assets/images/Sreyas Logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "August 2015 - May 2019",
+      desc: "Took courses about Software Engineering, Web Security, Operating Systems, and Software Management",
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -149,11 +148,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
@@ -169,29 +168,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Java Developer",
+      company: "Mercury Insurance",
+      companylogo: require("./assets/images/Mercury.Insurance.png"),
+      date: "November 2023 – Till date",
+      /*desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      ]*/
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Java Developer",
+      company: "American Frist Credit union",
+      companylogo: require("./assets/images/AFCU.png"),
+      date: "January 2023 – Octomber 2023",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Accellor",
+      companylogo: require("./assets/images/Accellor.png"),
+      date: "April 2019 – August 2021",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -207,30 +206,78 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "PROJECTS",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Mercury.Insurance.png"),
+      projectName: "Capture Integration Services",
+      //projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.mercuryinsurance.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/AFCU.png"),
+      projectName: "Credit Dispute Systems",
+      //projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.americafirst.com/"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/Intel.png"),
+      projectName: "Intel",
+      //projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.intel.com/content/www/us/en/homepage.html"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/Work.com"),
+      projectName: "Work.com",
+      //projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.salesforce.com/service/employee-engagement/?sfdc-redirect=219"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/AdTalem.png"),
+      projectName: "Adtalem",
+      //projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.adtalem.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/TaylorCommunications.png"),
+      projectName: "Taylor Communications",
+      //projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ordertest.taylorcommunications.com/"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
@@ -247,50 +294,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Salesforce Adminstrator",
+      //subtitle:
+      //  "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/SFAdmin.png"),
+      imageAlt: "Salesforce Admin",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://tbid.digital.salesforce.com/oauth2/aus5v9466wdqLdY0O697/v1/authorize?response_type=code&response_mode=query&client_id=0oa5v93ebgAGqkFSn697&redirect_uri=https%3A%2F%2Fiis.digital.salesforce.com%2Fservices%2Fauth%2Fcallback&state=eyJyZWZlcnJlciI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC8iLCJyZWRpcmVjdFVyaSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC8_aGFzTG9nZ2VkSW49dHJ1ZSIsImNvcnJlbGF0aW9uSWQiOiJhYWNjYzEzMS04NTAxLTQ1ZTItODA3Zi1iNGNhNDdmMTQzNDMiLCJzdGFydFRpbWUiOjE3MjQ3MDU1MDY3MDQsImNsaWVudElkIjoiSUlTX0F1dGhyZWxheSIsImlkcHMiOlsiSWRQIC0gR29vZ2xlIiwiSWRQIC0gU2FsZXNmb3JjZSIsIklkUCAtIE11bGVzb2Z0LVVTIiwiSWRQIC0gTXVsZXNvZnQtRVUiLCJJZFAgLSBUYWJsZWF1IiwiSWRQIC0gTGlua2VkaW4iLCJJZFAgLSBBcHBsZSIsIm90cCJdLCJsb2dnZWRJbiI6ZmFsc2V9&scope=openid+profile+email&intent=login"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Salesforce Associate",
+      //subtitle:
+       // "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/SFAssociate.png"),
+      imageAlt: "Salesforce Associate",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://tbid.digital.salesforce.com/oauth2/aus5v9466wdqLdY0O697/v1/authorize?response_type=code&response_mode=query&client_id=0oa5v93ebgAGqkFSn697&redirect_uri=https%3A%2F%2Fiis.digital.salesforce.com%2Fservices%2Fauth%2Fcallback&state=eyJyZWZlcnJlciI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC8iLCJyZWRpcmVjdFVyaSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC8_aGFzTG9nZ2VkSW49dHJ1ZSIsImNvcnJlbGF0aW9uSWQiOiJhYWNjYzEzMS04NTAxLTQ1ZTItODA3Zi1iNGNhNDdmMTQzNDMiLCJzdGFydFRpbWUiOjE3MjQ3MDU1MDY3MDQsImNsaWVudElkIjoiSUlTX0F1dGhyZWxheSIsImlkcHMiOlsiSWRQIC0gR29vZ2xlIiwiSWRQIC0gU2FsZXNmb3JjZSIsIklkUCAtIE11bGVzb2Z0LVVTIiwiSWRQIC0gTXVsZXNvZnQtRVUiLCJJZFAgLSBUYWJsZWF1IiwiSWRQIC0gTGlua2VkaW4iLCJJZFAgLSBBcHBsZSIsIm90cCJdLCJsb2dnZWRJbiI6ZmFsc2V9&scope=openid+profile+email&intent=login"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Salesforce Platform Developer 1",
+      //subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/SFPd1.png"),
+      imageAlt: "Salesforce PD1",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://tbid.digital.salesforce.com/oauth2/aus5v9466wdqLdY0O697/v1/authorize?response_type=code&response_mode=query&client_id=0oa5v93ebgAGqkFSn697&redirect_uri=https%3A%2F%2Fiis.digital.salesforce.com%2Fservices%2Fauth%2Fcallback&state=eyJyZWZlcnJlciI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC8iLCJyZWRpcmVjdFVyaSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC8_aGFzTG9nZ2VkSW49dHJ1ZSIsImNvcnJlbGF0aW9uSWQiOiJhYWNjYzEzMS04NTAxLTQ1ZTItODA3Zi1iNGNhNDdmMTQzNDMiLCJzdGFydFRpbWUiOjE3MjQ3MDU1MDY3MDQsImNsaWVudElkIjoiSUlTX0F1dGhyZWxheSIsImlkcHMiOlsiSWRQIC0gR29vZ2xlIiwiSWRQIC0gU2FsZXNmb3JjZSIsIklkUCAtIE11bGVzb2Z0LVVTIiwiSWRQIC0gTXVsZXNvZnQtRVUiLCJJZFAgLSBUYWJsZWF1IiwiSWRQIC0gTGlua2VkaW4iLCJJZFAgLSBBcHBsZSIsIm90cCJdLCJsb2dnZWRJbiI6ZmFsc2V9&scope=openid+profile+email&intent=login"
         }
       ]
     }
@@ -304,7 +342,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -319,7 +357,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -338,7 +376,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -351,23 +389,30 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
-
+  subtitle: "View my resume",
+  resumeLink:
+    "https://docs.google.com/document/d/1ia8eWUGvqW_UQO13paDEQHPj_6__33IIrnWzCf18LoY/edit?pli=1", // Set to empty to hide the button
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
+
   subtitle:
     "Just want to say hi? My Inbox is open for all.",
   number: "+1 (845)-546-5289",
+
+ // subtitle:
+  //  "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+1-8455465289",
+
   email_address: "babitha@careerwebmail.com"
 };
 
@@ -375,7 +420,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
