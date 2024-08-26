@@ -33,6 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
+  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  gmail: "babitha@careerwenmail.com",
+  // Instagram, Twitter and Kaggle are also supported in the links!
+  // To customize icons and social links, tweak src/components/SocialMedia
   github: "https://github.com/BabithaVakiti/Babitha_Portfolio",
   linkedin: "https://www.linkedin.com/in/vakiti3012/",
   gmail: "babitha@careerwenmail.com",
@@ -400,9 +404,15 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
+
+  subtitle:
+    "Just want to say hi? My Inbox is open for all.",
+  number: "+1 (845)-546-5289",
+
  // subtitle:
   //  "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1-8455465289",
+
   email_address: "babitha@careerwebmail.com"
 };
 
@@ -413,7 +423,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
