@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Java / SpringBoot / Angular and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1ia8eWUGvqW_UQO13paDEQHPj_6__33IIrnWzCf18LoY/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1029v7uD2a7UYlZWLhrAjULtzUAF_-zUd/edit?usp=sharing&ouid=109423073263715850298&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -397,7 +397,7 @@ const resumeSection = {
   title: "Resume",
   subtitle: "View my resume",
   resumeLink:
-    "https://docs.google.com/document/d/1ia8eWUGvqW_UQO13paDEQHPj_6__33IIrnWzCf18LoY/edit?pli=1", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1029v7uD2a7UYlZWLhrAjULtzUAF_-zUd/edit?usp=sharing&ouid=109423073263715850298&rtpof=true&sd=true", // Set to empty to hide the button
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
