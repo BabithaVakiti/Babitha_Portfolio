@@ -397,7 +397,7 @@ const resumeSection = {
   title: "Resume",
   subtitle: "View my resume",
   resumeLink:
-    "https://docs.google.com/document/d/1ia8eWUGvqW_UQO13paDEQHPj_6__33IIrnWzCf18LoY/edit?pli=1", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1ia8eWUGvqW_UQO13paDEQHPj_6__33IIrnWzCf18LoY/edit?usp=sharing", // Set to empty to hide the button
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
