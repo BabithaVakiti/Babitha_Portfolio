@@ -406,7 +406,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
 
   subtitle:
-    "Just want to say hi? My Inbox is open for all.",
+    "",
   number: "+1 (845)-546-5289",
 
  // subtitle:
