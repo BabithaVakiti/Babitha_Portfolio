@@ -26,20 +26,19 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Java / SpringBoot / Angular and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1ia8eWUGvqW_UQO13paDEQHPj_6__33IIrnWzCf18LoY/edit?usp=sharing", // Set to empty to hide the button
+  "/Babitha-Vakiti.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "babitha@careerwenmail.com",
+  gmail: "vakitibabitha222@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   github: "https://github.com/BabithaVakiti/Babitha_Portfolio",
   linkedin: "https://www.linkedin.com/in/vakiti3012/",
-  gmail: "babitha@careerwenmail.com",
+  gmail: "vakitibabitha222@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -397,7 +396,7 @@ const resumeSection = {
   title: "Resume",
   subtitle: "View my resume",
   resumeLink:
-    "https://docs.google.com/document/d/1ia8eWUGvqW_UQO13paDEQHPj_6__33IIrnWzCf18LoY/edit?usp=sharing", // Set to empty to hide the button
+  "/Babitha-Vakiti.pdf",
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
@@ -413,7 +412,7 @@ const contactInfo = {
   //  "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1-8455465289",
 
-  email_address: "babitha@careerwebmail.com"
+  email_address: "vakitibabitha222@gmail.com"
 };
 
 // Twitter Section

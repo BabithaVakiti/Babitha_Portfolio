@@ -11,6 +11,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  console.log(greeting.resumeLink)
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -41,8 +42,8 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={greeting.resumeLink}
+                    download="BabithaReddy_Vakiti_SDE.pdf"
                     className="download-link-button" >
                     <Button text="Download my resume" />
                   </a>
